@@ -1,0 +1,15 @@
+body::-webkit-scrollbar {
+  width: 0em;
+  background-color: #F5F5F5;
+}
+body{
+  scrollbar-width: none;
+}
+body::-webkit-scrollbar-thumb {
+background-color: #000000;
+}
+
+body {
+overflow: -moz-scrollbars-none;
+-ms-overflow-style: none;
+}
